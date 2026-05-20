@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(pink,rgb(169, 169, 199),orange);
+}
+p{
+    font-size: 90px;
+    font-weight: 900;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+   
+}
+button{
+   
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     font-size: 50px;
+     border-radius: 30px;
+     
+}

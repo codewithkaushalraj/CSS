@@ -1,0 +1,28 @@
+@font-face {
+    font-family: hihi;
+    src: url('https://www.1001fonts.com/rusty-attack-demo-font.html?size=5');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-family: Storm Gust;
+    font-size: 100px;
+    position: absolute;
+    top: 4%;
+    font-weight: 900;
+    left: 20%;
+    /* background-color: black; */
+    color: red;
+}
+video{
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+}
