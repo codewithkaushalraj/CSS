@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgb(255, 213, 0); */  
+      
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    display: grid;
+    gap: 5px;
+    padding: 20px;
+    grid-template-rows: 10% 60% 30%;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-areas:
+    " top top top"
+    " left-top left-top right" 
+    " left-btm1 left-btm2 right"
+    ;
+    
+    
+}
+.box{
+    border: 5px solid black;
+}
+.top{
+    background-color: rgb(170, 214, 252);
+    grid-area: top;
+}
+
+.left-top{
+    background-color: beige;
+    grid-area: left-top;
+}
+.left-btm1{
+    background-color: rgb(188, 188, 25);
+    grid-area: left-btm1;
+}
+.left-btm2{
+    background-color: palegoldenrod;
+    grid-area: left-btm2;
+}
+.right{
+    background-color: rgb(114, 111, 84);
+    grid-area: right;
+}

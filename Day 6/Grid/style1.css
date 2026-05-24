@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    padding: 20px;
+    justify-items: center;
+    /* align-items: center; */
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    border: 5px solid white;
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
