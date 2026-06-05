@@ -1,0 +1,53 @@
+:root{
+    --king:orange;
+    --queen: rgb(252, 88, 116);
+    --padBtn:20px 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+}
+body{
+    background-color: black;
+}
+h1{
+    font-size: 80px;
+}
+h1 span{
+    color: var(--king);
+}
+.btn1{
+    padding: 20px 40px;
+    color: var(--king);
+    border: 3px solid crimson;
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: 800;
+    padding: var(--padBtn);
+}
+p{
+    font-size: 30px;
+}
+p span{
+    color:var(--queen);
+}
+.btn2{
+     background-color: var(--king);
+    font-size: 40px;
+    font-weight: 800;
+    padding: var(--padBtn);
+}
+.btn3{
+     background-color: var(--queen);
+    font-size: 40px;
+    font-weight: 800;
+    /* padding: var(--padBtn); */
+}

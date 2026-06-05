@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+#box {
+    height: 400px;
+    width: 400px;
+    background-color: plum;
+}
+body{
+    background-color: black;
+    color: white;
+}
+/* 
+@media (max-width:800px) {
+    #box {
+        height: 350px;
+        width: 350px;
+        border-radius: 50px;
+        background-color: rgb(126, 121, 68);
+    }
+}
+
+@media (min-width:500px) and (max-width:650px) {
+    #box {
+        height: 300px;
+        width: 300px;
+        border-radius: 80px;
+        background-color: rgb(169, 115, 223);
+    }
+}
+
+@media (max-width:500px) {
+    #box {
+        height: 250px;
+        width: 250px;
+        background-color: yellow;
+        border-radius: 50%;
+        box-shadow: 0px 0px 20px red;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+ */
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+
+}
+.part2{
+    height: 100%;
+    /* width: 45%; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.part2 img{
+    display: none;
+}
+nav h1{
+    font-size: 50px;
+}
+
+
+a{
+    color: white;
+    font-size: 30px;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+p{
+    font-size: 3vw;
+}
+.box h1{
+    font-size: 100px
+}
+#home{
+    background-color: rgb(6, 6, 50);
+}
+#about{
+    background-color: palevioletred;
+}
+#projects{
+    background-color: gold;
+}
+#projects p{
+    color: blue;
+}
+#courses{
+    background-color: fuchsia;
+}
+#Contact{
+    background-color: rosybrown;
+}
+
+@media (max-width:850px) {
+    nav a{
+        display: none;
+    }
+    .part2 img{
+        display: initial;
+    }   
+    p{
+        font-size: 22px;
+    }
+}
+
